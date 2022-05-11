@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1"
+  },
+  "name": "data-structures-algorithms",
+  "description": "Data Structures and Algos Practice In Typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@types/jest": "^27.0.1",
+    "babel-jest": "^28.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moniet/data-structures-algorithms.git"
+  },
+  "keywords": [],
+  "author": "Moniet Sahwney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moniet/data-structures-algorithms/issues"
+  },
+  "homepage": "https://github.com/Moniet/data-structures-algorithms#readme"
+}
