@@ -1,9 +1,10 @@
 {
   "dependencies": {
     "@babel/preset-typescript": "^7.15.0",
-    "jest": "^27.1.0",
-    "ts-jest": "^27.0.5",
-    "ts-node": "^10.2.1"
+    "babel-jest": "^27.1.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0"
   },
   "name": "data-structures-algorithms",
   "description": "Data Structures and Algos Practice In Typescript",
@@ -12,11 +13,12 @@
   "devDependencies": {
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
-    "@types/jest": "^27.0.1",
-    "babel-jest": "^28.1.0"
+    "@types/jest": "^27.5.1",
+    "typescript": "^4.6.4"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc -p tsconfig.build.json"
   },
   "repository": {
     "type": "git",
