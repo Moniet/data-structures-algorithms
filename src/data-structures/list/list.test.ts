@@ -1,10 +1,24 @@
 import List from "."
 
 describe("List Data Structure", () => {
+  /* Instantiation Checks */
+
   it("instantiates with 0 length", () => {
     const list = new List()
     expect(list.length).toBe(0)
   })
+
+  it("instantiates with provided values", () => {
+    const list = new List<number>([1, 2], (val: number) =>
+      Number.isInteger(val)
+    )
+
+    expect(list.memory[0]).toBe(1)
+    expect(list.memory[1]).toBe(2)
+    expect(list.length).toBe(2)
+  })
+
+  /* List Methods */
 
   it("can 'push'an item", () => {
     const list = new List()
@@ -46,15 +60,7 @@ describe("List Data Structure", () => {
     expect(shiftedVal).toBe(1)
   })
 
-  it("can instantiates with values", () => {
-    const list = new List([1, 2])
-
-    expect(list.memory[0]).toBe(1)
-    expect(list.memory[1]).toBe(2)
-    expect(list.length).toBe(2)
-  })
-
-  it("can instantiates with values", () => {
+  it("can 'unshift' and item", () => {
     const list = new List([1, 2])
 
     list.unshift(0)
