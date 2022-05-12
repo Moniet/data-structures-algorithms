@@ -9,10 +9,10 @@ const selectionSort = (arr: number[]) => {
     }
 
     if (pos === arr.length - 1) {
-      const smallVal = arr[minValPos]
+      const temp = arr[minValPos]
 
       arr[minValPos] = arr[fixedPos]
-      arr[fixedPos] = smallVal
+      arr[fixedPos] = temp
 
       fixedPos++
       pos = 0
