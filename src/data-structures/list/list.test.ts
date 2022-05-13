@@ -30,16 +30,6 @@ describe("List Data Structure", () => {
     expect(list.memory[1]).toBe(3)
   })
 
-  it("can 'push'an item", () => {
-    const list = new List()
-
-    list.push(2)
-    list.push(3)
-
-    expect(list.memory[0]).toBe(2)
-    expect(list.memory[1]).toBe(3)
-  })
-
   it("can 'pop' an item", () => {
     const list = new List([2, 3])
 
