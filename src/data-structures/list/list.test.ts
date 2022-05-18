@@ -36,8 +36,8 @@ describe("List Data Structure", () => {
     const poppedVal = list.pop()
 
     expect(list.length).toBe(1)
-    expect(list.length).toBe(list.memory.length - 1)
     expect(poppedVal).toBe(3)
+    expect(list.memory).toEqual([2, undefined])
   })
 
   it("can 'shift' an item", () => {
@@ -55,9 +55,7 @@ describe("List Data Structure", () => {
 
     list.unshift(0)
 
-    expect(list.memory[0]).toBe(0)
-    expect(list.memory[1]).toBe(1)
-    expect(list.memory[2]).toBe(2)
+    expect(list.memory).toEqual([0, 1, 2])
     expect(list.length).toBe(3)
   })
 })
