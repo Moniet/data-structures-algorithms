@@ -2,20 +2,20 @@ const binarySearch = (searchNum: number, arr: number[]) => {
   if (searchNum > arr[arr.length - 1]) return null
   if (searchNum < arr[0]) return null
 
-  let left = 0
-  let right = arr.length - 1
+  let start = 0
+  let end = arr.length - 1
 
-  while (left <= right) {
-    const midPos = Math.floor((left + right) / 2)
+  while (start <= end) {
+    const midPos = Math.floor((start + end) / 2)
 
     if (arr[midPos] === searchNum) return midPos
 
     if (searchNum < arr[midPos]) {
-      right = midPos
+      end = midPos
     }
 
     if (searchNum > arr[midPos]) {
-      left = midPos
+      start = midPos
     }
   }
 }
