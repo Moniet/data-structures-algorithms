@@ -9,12 +9,12 @@ describe("List Data Structure", () => {
   })
 
   it("instantiates with provided values", () => {
-    const list = new List<number>([1, 2], (val: number) =>
+    const startingVals = [1, 2]
+    const list = new List<number>(startingVals, (val: number) =>
       Number.isInteger(val)
     )
 
-    expect(list.memory[0]).toBe(1)
-    expect(list.memory[1]).toBe(2)
+    expect(list.memory).toEqual(startingVals)
     expect(list.length).toBe(2)
   })
 
@@ -26,8 +26,7 @@ describe("List Data Structure", () => {
     list.push(2)
     list.push(3)
 
-    expect(list.memory[0]).toBe(2)
-    expect(list.memory[1]).toBe(3)
+    expect(list.memory).toEqual([2, 3])
   })
 
   it("can 'pop' an item", () => {
