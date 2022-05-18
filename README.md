@@ -10,14 +10,14 @@ I also plan to use this repo as an archive and place to revisit and revise Data 
 
 **Searching**
 
-- [ ] [Binary Search]()
+- [x] [Binary Search]()
 
 **Sorting**
 
-- [Bubble Sort](https://github.com/Moniet/data-structures-algorithms/tree/main/src/algorithms/bubble-sort)
-- [Insertion Sort](https://github.com/Moniet/data-structures-algorithms/tree/main/src/algorithms/insertion-sort)
-- [Selection Sort](https://github.com/Moniet/data-structures-algorithms/tree/main/src/algorithms/selection-sort)
+- [x] [Bubble Sort](https://github.com/Moniet/data-structures-algorithms/tree/main/src/algorithms/bubble-sort)
+- [x] [Insertion Sort](https://github.com/Moniet/data-structures-algorithms/tree/main/src/algorithms/insertion-sort)
+- [x] [Selection Sort](https://github.com/Moniet/data-structures-algorithms/tree/main/src/algorithms/selection-sort)
 
 ### Data Structures
 
-- [List](https://github.com/Moniet/data-structures-algorithms/tree/main/src/data-structures/list)
+- [x] [List](https://github.com/Moniet/data-structures-algorithms/tree/main/src/data-structures/list)
