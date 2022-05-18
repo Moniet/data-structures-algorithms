@@ -10,7 +10,7 @@ I also plan to use this repo as an archive and place to revisit and revise Data 
 
 **Searching**
 
-- [] [Binary Search]()
+- [ ] [Binary Search]()
 
 **Sorting**
 
