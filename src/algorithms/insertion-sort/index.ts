@@ -1,4 +1,4 @@
-// Time complexity  : O(n^2)
+// Time complexity  : O(n) - best || O(n^2) - worst case
 // Space complexity : O(1)
 
 const insertionSort = (arr: number[]) => {
