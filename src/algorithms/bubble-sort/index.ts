@@ -1,3 +1,6 @@
+// Time Complexity : O(n^2)
+// Space Complexity : O(1)
+
 import swap from "./swap"
 
 const bubbleSort = (arr: number[]) => {
