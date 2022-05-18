@@ -1,4 +1,5 @@
-# data-structures-algorithms
-Data Structures and Algos Practice In Typescript
+# Data Structures and Algorithms (Typescript)
 
-I created this repo to track my progress of learning DSA in Typescript and to have a place for practice
+I created this repo to track my progress of learning.
+
+I also plan to use this repo as an archive and place to revisit and revise Data structures and algorithms
