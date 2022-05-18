@@ -1,3 +1,4 @@
+// Time Complexity : O(logn)
 import binarySearch from "./index"
 
 describe("binary search", () => {
