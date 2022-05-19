@@ -15,4 +15,11 @@ describe("binary search", () => {
     const result = binarySearch(-1, arr)
     expect(result).toBe(0)
   })
+
+  it("returns -1 when value not found", () => {
+    const arr = [0, 1, 3, 4, 5]
+
+    const result = binarySearch(2, arr)
+    expect(result).toBe(-1)
+  })
 })
