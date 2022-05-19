@@ -1,15 +1,10 @@
-type Letter = string
-interface CounterObj {
-  [index: string]: number
-}
-
 const anagram = (str1: string, str2: string) => {
-  const counterObj: CounterObj = {}
+  if (str1.length !== str2.length) return false
 
-  if (str1.length !== str2.length) return
+  const counterObj: Record<string, number> = {}
 
   for (let i: number = 0; i < str1.length; i++) {
-    const letter: Letter = str1[i]
+    const letter = str1[i]
     counterObj[letter] ? counterObj[letter]++ : (counterObj[letter] = 1)
   }
 
@@ -26,4 +21,4 @@ const anagram = (str1: string, str2: string) => {
   return true
 }
 
-console.log(anagram("malayalam", "malayam"))
+export default anagram
