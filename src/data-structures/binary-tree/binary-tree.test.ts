@@ -1,4 +1,4 @@
-import BinaryTree, { BinaryTreeNode } from "./BinaryTree"
+import BinaryTree, { BinaryTreeNode } from "./binary-tree"
 
 describe("Binary Tree", () => {
   it("Creates Root", () => {
