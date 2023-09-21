@@ -37,4 +37,17 @@ describe("Binary Tree", () => {
     expect(foundNode?.right?.value).toBe(15)
     expect(foundNode?.left?.value).toBe(13)
   })
+
+  it("It throws error when not found", () => {
+    let tree = new BinaryTree()
+    tree.insert(10)
+    tree.insert(14)
+    tree.insert(13)
+    tree.insert(15)
+    tree.insert(8)
+    tree.insert(4)
+
+    let foundNode = tree.find(28) as number
+    expect(foundNode).toBe(-1)
+  })
 })
