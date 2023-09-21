@@ -1,7 +1,5 @@
 function maxSum(arr: number[], toSum: number) {
-  if (toSum >= arr?.length) {
-    throw new Error("Cannot sum more numbers than are in the array")
-  }
+  if (toSum >= arr.length) return null
 
   let tempSum = 0
   let maxSum = 0

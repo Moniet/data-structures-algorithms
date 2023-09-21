@@ -10,5 +10,3 @@ const countUniqueValues: (value: number[]) => number[] = (arr: number[]) => {
 
   return arr.slice(0, i + 1)
 }
-
-countUniqueValues([1, 1, 2, 4, 5, 5, 5, 6, 6, 6, 7, 9, 9])
